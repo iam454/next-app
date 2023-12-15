@@ -92,3 +92,41 @@ next 플젝 세팅하는데 node 버전이 낮다고 터미널한테 혼났다.
 
   </div>
 </details>
+
+---
+
+<details>
+  <summary>DAY 2 - 23.12.14</summary>
+  <div>
+
+### 내용
+
+수강한 강의 : 2강, 3강
+
+```javascript
+1️⃣ children
+
+// layout.js
+export default function RootLayout({ children }) {
+  return (
+    <html lang="ko">
+      <body>{children}</body> -> children에 page.js의 파일의 리턴값이 들어온다
+    </html>
+  );
+}
+
+// page.js
+export default function Home() {
+  return <div>Hello, Next.js 13!</div>;
+}
+
+
+2️⃣ package.json
+
+dev : 개발할 때
+build : 실서버를 위한 배포 -> .next에 저장됨
+start : 배포 버전을 서비스
+```
+
+  </div>
+</details>
