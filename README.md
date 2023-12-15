@@ -96,7 +96,7 @@ next 플젝 세팅하는데 node 버전이 낮다고 터미널한테 혼났다.
 ---
 
 <details>
-  <summary>DAY 2 - 23.12.14</summary>
+  <summary>DAY 2 - 23.12.15</summary>
   <div>
 
 ### 내용
@@ -126,6 +126,16 @@ export default function Home() {
 dev : 개발할 때
 build : 실서버를 위한 배포 -> .next에 저장됨
 start : 배포 버전을 서비스
+```
+
+### 회고
+
+```
+1️⃣ 핑계
+
+이삿짐 싸느라 공부를 거의 못 했다. ㅠ 이것저것 준비할 게 많네..
+4강부터 핵심일 것 같은 너낌이라
+온전하게 집중하고 싶어서 오늘은 GG.. 낡고 지쳐벌임
 ```
 
   </div>
