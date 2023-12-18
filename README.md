@@ -241,3 +241,56 @@ globals.css : 전역적인 스타일 관리
 
   </div>
 </details>
+
+---
+
+<details>
+  <summary>DAY 4 - 23.12.18</summary>
+  <div>
+
+### 내용
+
+수강한 강의 : 9강 ~ 17강
+
+```zsh
+1️⃣ json-server
+
+포트 9999에 db의 변화를 감지하는 json-server 생성
+npx json-server --port 9999 --watch db.json
+
+
+2️⃣ Server Component vs Client Component
+
+리액트 18버전부터 서버 컴포넌트 개념이 추가되었다고 한다.
+지금까지 내가 쓴 useState, useEffect, onClick 요런거 전부 클라이언트 컴포넌트였다.
+
+넥스트는 기본적으로 서버 컴포넌트 방식이며
+클라이언트 컴포넌트로 사용하고 싶으면 상단에 "use client"를 적으면 된다.
+
+사용자와 상호작용하지 않는 것은 Server Component로,
+사용자와 상호작용하는(버튼 등) 것은 Client Component로 만들면 좋을 듯.
+
+
+3️⃣ Cache
+
+모든 fetch 요청은 캐시되고 자동으로 중복이 제거된다.
+그래서 create하더라도 별다른 옵션 없으면 이전 캐시값이 HIT이기 때문에 새 아이템이 안 나온다.
+여기서는 캐시를 지워버려서.. 해결한다.
+
+
+4️⃣ env
+
+넥스트는 서버 컴포넌트에서만 환경변수 접근이 가능하다.
+클라이언트 컴포넌트에서 환경변수를 사용하려면 NEXT_PUBLIC_의 prefix를 사용하면 된다.
+```
+
+### 추후 액션
+
+```
+1️⃣ Revalidating
+
+cache 아직 잘 모르겠지비
+```
+
+  </div>
+</details>
